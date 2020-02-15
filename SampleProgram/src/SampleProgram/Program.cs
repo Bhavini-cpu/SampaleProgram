@@ -7,7 +7,7 @@ namespace SampleProgram
 {
     public class Program
     {
-        public void Main(string[] args)
+        public void functio()
         {
             string[] arr = Console.ReadLine().Split(' ');
             int[] arrElement = arr.Select(a => Convert.ToInt32(a)).ToArray();

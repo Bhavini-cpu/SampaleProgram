@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 14 for Web
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AA19A684-2C2E-4232-A496-26770E106B88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{85958293-BA3E-44B0-AC9D-D5E7CE9B2ED4}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Time Conversion", "src\Time Conversion\Time Conversion.xproj", "{0DEC922E-D18F-471C-B1FF-848A60076109}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DEC922E-D18F-471C-B1FF-848A60076109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DEC922E-D18F-471C-B1FF-848A60076109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DEC922E-D18F-471C-B1FF-848A60076109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DEC922E-D18F-471C-B1FF-848A60076109}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DEC922E-D18F-471C-B1FF-848A60076109} = {AA19A684-2C2E-4232-A496-26770E106B88}
+	EndGlobalSection
+EndGlobal
