@@ -7,6 +7,7 @@ namespace TimeConertionApplication
 {
     public class Program
     {
+        // https://www.hackerrank.com/challenges/time-conversion/problem
         public void Main(string[] args)
         {
             string time = Console.ReadLine();
